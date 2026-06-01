@@ -18,4 +18,11 @@ h3{
     gap: 20px;
     align-items: center;
 }
-
+.question {
+    border: 2px solid red;
+    margin: 10px;
+}
+.grid {
+    border: 2px solid blue;
+    min-height: 100px;
+}
