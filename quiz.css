@@ -3,6 +3,13 @@
     align-items: center;
     gap: 20px;
 }
+h2{
+    display: flex;
+    text-align: center;
+    font-size: 32px;
+    background-color: #F8E473;
+    color: black;
+}
 h3{
     display: grid;
     grid-template-columns: 1fr;
@@ -12,6 +19,7 @@ h3{
     color: black;
     background-color: #45a3e5;
 }
+
 .grid{
     display:grid;
     grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 1fr;
