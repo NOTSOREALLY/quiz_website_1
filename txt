@@ -1,0 +1,54 @@
+ <div id="q3" class="question">
+  <h2>What is the definition of a social enterprise?</h2>
+    <div class="grid">
+      <h3 style="grid-column: 2;"> A. A non-profit organisation that exists to help with social issues </h3>
+      <h3 style="grid-column: 4;"> B. A  business that helps with social issues <br> </h3>
+      <h3 style="grid-column: 2;"> C. A business that exists for a purpose beyond profit </h3>
+      <h3 style="grid-column: 4;"> D. A non-profit organisation that exists for a purpose beyond profit </h3>
+      <select id="ans3" style="grid-column:6; grid-row:1;">
+      <option value="0">A</option>
+      <option value="1">B</option>
+      <option value="0">C</option>
+      <option value="0">D</option>
+      </select>
+    </div>
+  </div>
+  
+  <div id="q4" class="question" >
+  <h2>What are the 2 main reasons for a change in quantity demanded?</h2>
+    <div class="grid">
+      <h3 style="grid-column: 2;"> A. Income and Substitutions effects </h3>
+      <h3 style="grid-column: 4;"> B. Complementary Goods and Preference effects <br> </h3>
+      <h3 style="grid-column: 2;"> C. Income and Preference effects </h3>
+      <h3 style="grid-column: 4;"> D. Complementary Goods and Substitution effects </h3>
+      <select id="ans4" style="grid-column:6; grid-row:1;">
+      <option value="1">A</option>
+      <option value="0">B</option>
+      <option value="0">C</option>
+      <option value="0">D</option>
+      </select>
+    </div>
+  </div>
+  
+    <div id="q5" class="question">
+    <h2>What are the 4 non-price factors affecting demand?</h2>
+      <div class="grid">
+        <h3 style="grid-column: 2;"> A. Number of Buyers, Price of Substitutes, Seasonal Factors, Culture </h3>
+        <h3 style="grid-column: 4;"> B. Taste and preferences, Seasonal Factors, Culture, Expectation of future price <br> </h3>
+        <h3 style="grid-column: 2;"> C. Price of Complements, Price of Substitutes, Income, Taste and preferences</h3>
+        <h3 style="grid-column: 4;"> D. Culture, Number of Buyers, Price of Complements, Expectation of future price</h3>
+        <select id="ans5" style="grid-column:6; grid-row:1;">
+        <option value="0">A</option>
+        <option value="0">B</option>
+        <option value="1">C</option>
+        <option value="0">D</option>
+        </select>
+      </div>
+    </div>
+  
+    <div id="q6" class="question">
+    <h2>Employees and Shareholders both classify as what type of stakeholders? </h2>
+      <div class="grid">
+        <input type="text" id="ans6" placeholder="Type answer here...">
+      </div>
+    </div>
