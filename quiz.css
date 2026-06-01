@@ -16,7 +16,7 @@ h3{
     grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 20px;
-    align-items: center
+    align-items: center;
 }
 .fake-button{
     background-color: #45a3e5;
