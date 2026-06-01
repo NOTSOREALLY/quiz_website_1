@@ -3,3 +3,18 @@
     align-items: center;
     gap: 20px;
 }
+.square {
+    display: grid;
+    gap: 20px;
+    align-items: center;
+}
+
+.square {
+    background-color: rgb (69, 163, 229);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 20px;
+}
