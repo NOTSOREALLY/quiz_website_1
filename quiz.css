@@ -12,3 +12,8 @@ h3{
     color: black;
     background-color: #45a3e5;
 }
+.grid{
+    display:grid;
+    grid-template-columns: 350px 1fr;
+    gap: 150px;
+}
