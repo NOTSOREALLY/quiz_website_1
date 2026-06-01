@@ -3,18 +3,10 @@
     align-items: center;
     gap: 20px;
 }
-.square {
-    display: grid;
-    gap: 20px;
-    align-items: center;
-}
-
-.choice {
-    color: black;
-    font-size: 20px;
+.ans-align{
     display: flex;
-    font-weight: bold;
-    text-align: center;
-    padding:20px;
-    border-radius: 20px;
+    align-item: center;
+    gap: 100px;
+    color: black;
+    background-color: blue;
 }
