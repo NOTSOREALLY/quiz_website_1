@@ -3,8 +3,9 @@
     align-items: center;
     gap: 20px;
 }
-.ans-align{
-    display: flex;
+h3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-item: center;
     gap: 100px;
     color: black;
