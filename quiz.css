@@ -18,11 +18,4 @@ h3{
     gap: 20px;
     align-items: center;
 }
-.fake-button{
-    background-color: #45a3e5;
-    padding: 10px 20px;
-    border-radius: 30px;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-}
+
