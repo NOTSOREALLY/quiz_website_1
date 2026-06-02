@@ -3,6 +3,10 @@
     align-items: center;
     gap: 20px;
 }
+html{
+    border: 10px solid green;
+    min-height: 100vh;    /* suppose to make it full screen */
+}
 h2 {
     background-color: #F8E473;   
     display: inline-block;       /*https://www.w3schools.com/html/html_blocks.asp. This allows for the background color to only take as much space as needed*/
