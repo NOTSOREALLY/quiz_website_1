@@ -3,8 +3,16 @@
     align-items: center;
     gap: 20px;
 }
-html{
-    border: 10px solid #03C04A;
+body::before {
+    content: '';              /* Required for pseudo-element to appear */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 10px solid green;
+    pointer-events: none;
+}
 }
 h2 {
     background-color: #F8E473;   
