@@ -37,8 +37,43 @@ h3{
 .question{
     text-align:center;
 }
+/* All of the code below is my code from my first assessment */
+.menu{
+     background:rgb(62, 127, 202);
+     text-align: right;
+     height: 90px;
+}
+
+.menu ul{
+     display: inline-flex;
+     list-style: none;
+}
+
+.menu ul li{
+     width: 120px;
+     margin: 0px;
+     padding: 20px;
+}
+
+.menu ul li a {
+     text-decoration: none;
+     color: white;
+     text-align: center;
+}
+.hover-box, .menu ul li:hover{
+     background: rgb(9, 56, 117);
+     width:120px;
+     height:20px;     
+}
+.menu li a{
+     display: block;
+     text-decoration: none;
+}
 
 
+.hover-box {
+     padding: 10px;
+     margin: 5px;}
 
 
 /*
