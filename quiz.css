@@ -3,16 +3,8 @@
     align-items: center;
     gap: 20px;
 }
-body::before {
-    content: '';              /* Required for pseudo-element to appear */
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border: 10px solid green;
-    pointer-events: none;
-}
+html{
+    border: solid #03C04A; /* green border */
 }
 h2 {
     background-color: #F8E473;   
@@ -51,37 +43,6 @@ h3{
      text-align: right;
      height: 90px;
 }
-
-.menu ul{
-     display: inline-flex;
-     list-style: none;
-}
-
-.menu ul li{
-     width: 120px;
-     margin: 0px;
-     padding: 20px;
-}
-
-.menu ul li a {
-     text-decoration: none;
-     color: white;
-     text-align: center;
-}
-.hover-box, .menu ul li:hover{
-     background: rgb(9, 56, 117);
-     width:120px;
-     height:20px;     
-}
-.menu li a{
-     display: block;
-     text-decoration: none;
-}
-
-
-.hover-box {
-     padding: 10px;
-     margin: 5px;}
 
 
 /*
