@@ -33,6 +33,7 @@ h3{
     grid-template-rows: 1fr 1fr;
     gap: 20px;
     align-items: center;
+    justify-content: center;
 }
 /*
 .question {
