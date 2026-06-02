@@ -5,8 +5,6 @@
 }
 html{
     border: 10px solid green;
-    border-sizing: border-box; /* supposed to make it visible */
-    min-height: 100vh;    /* suppose to make it full screen */
 }
 h2 {
     background-color: #F8E473;   
