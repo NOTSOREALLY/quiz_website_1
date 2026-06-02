@@ -25,7 +25,7 @@ h3{
 
 .grid{
     display:grid;
-    grid-template-columns: 2fr 2fr 1fr 2fr 1fr ; /* keeps proportional unlike auto.*/
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr ; /* keeps proportional unlike auto.*/
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 20px;
     align-items: center;
