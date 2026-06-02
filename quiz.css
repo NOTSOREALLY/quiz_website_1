@@ -1,13 +1,11 @@
 .BECheading {
-    background-color: #F8E473;         
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-size: 24px;
-    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 h2 {
     background-color: #F8E473;   
-    display: inline-block;       
+    display: inline-block;       /*https://www.w3schools.com/html/html_blocks.asp. This allows for the background color to only take as much space as needed*/
     padding: 10px 20px;
     border-radius: 20px;
     font-size: 24px;
@@ -15,22 +13,25 @@ h2 {
     text-align: center;
 }
 h3{
+    text-align: center;
     display: inline-block;
     font-size: 16px;
     color: black;
-    padding: 6px 11px;
+    padding: 6px 11px; /* 6px top+bottum padding 11px left+right */
     margin-bottom: 11px;
     background-color: #45a3e5;
     border-radius: 12px;
-    text-align: center;
 }
 
 .grid{
     display:grid;
-    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 1fr; /* keeps proportional unlike auto.*/
     grid-template-rows: 1fr 1fr;
     gap: 20px;
+    align-items: center;
 }
+
+
 
 
 /*
