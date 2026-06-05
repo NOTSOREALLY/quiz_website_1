@@ -6,9 +6,8 @@ function next(totalquestions){
 
 currentnum++;
 
-if (currentnum <= totalquestions){
    let nq = document.getElementById("q" + currentnum);
-   if (nq) nq.style.display = "block";
+   if (nq) nq.style.display = "grid";
  }
 }
 
@@ -20,5 +19,5 @@ function back() {
     currentnum--;
 
     let bq = document.getElementById("q" + currentnum);
-    if (bq) bq.style.display = "block";
+    if (bq) bq.style.display = "grid";
 }
