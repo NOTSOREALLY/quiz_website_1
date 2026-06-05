@@ -11,3 +11,14 @@ if (currentnum <= totalquestions){
    if (nq) nq.style.display = "block";
  }
 }
+
+function back() {
+
+    let cq = document.getElementById("q" + currentnum);
+    if (cq) cq.style.display = "none";
+
+    currentnum--;
+
+    let bq = document.getElementById("q" + currentnum);
+    if (bq) bq.style.display = "block";
+}
