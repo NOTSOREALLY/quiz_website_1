@@ -8,7 +8,6 @@ currentnum++;
 
    let nq = document.getElementById("q" + currentnum);
    if (nq) nq.style.display = "grid";
- }
 }
 
 function back() {
