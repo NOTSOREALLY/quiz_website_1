@@ -1,6 +1,6 @@
 let currentnum = 1;
 
-function next(totalquestions){
+function next(){
  let cq = document.getElementById("q" + currentnum); 
  if (cq) cq.style.display = "none";
 
