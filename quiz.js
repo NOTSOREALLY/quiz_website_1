@@ -7,7 +7,7 @@ function next(){
 currentnum++;
 
   let nq = document.getElementById("q" + currentnum);
-  if (nq) nq.style.display = "inline-block";
+  if (nq) nq.style.display = "inline-grid";
 }
 
 function back(){
@@ -18,7 +18,7 @@ function back(){
    currentnum--;
 
    let bq = document.getElementById("q" + currentnum);
-   if (bq) bq.style.display = "inline-block";
+   if (bq) bq.style.display = "inlinegrid";
 }
 /*
 function submit(){
