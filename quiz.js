@@ -7,7 +7,7 @@ function next(){
 currentnum++;
 
   let nq = document.getElementById("q" + currentnum);
-  if (nq) nq.style.display = "inline-grid";
+  if (nq) nq.style.display = "grid";
 }
 
 function back(){
@@ -20,6 +20,7 @@ function back(){
    let bq = document.getElementById("q" + currentnum);
    if (bq) bq.style.display = "inline-grid";
 }
+/*
 function submit(){
  let q1ans = document.getElementById("q1").value;
  let q2ans = document.getElementById("q1").value;
@@ -40,3 +41,4 @@ function submit(){
  alert( "You got a score of: "+ totalscore
  
 }
+*/
