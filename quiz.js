@@ -6,17 +6,17 @@ function next(){
 
 currentnum++;
 
-   let nq = document.getElementById("q" + currentnum);
-   if (nq) nq.style.display = "grid";
+  let nq = document.getElementById("q" + currentnum);
+  if (nq) nq.style.display = "grid";
 }
 
-function back() {
+function back(){
 
-    let cq = document.getElementById("q" + currentnum);
-    if (cq) cq.style.display = "none";
+   let cq = document.getElementById("q" + currentnum);
+   if (cq) cq.style.display = "none";
 
-    currentnum--;
+   currentnum--;
 
-    let bq = document.getElementById("q" + currentnum);
-    if (bq) bq.style.display = "grid";
+   let bq = document.getElementById("q" + currentnum);
+   if (bq) bq.style.display = "grid";
 }
