@@ -18,7 +18,7 @@ function back(){
    currentnum--;
 
    let bq = document.getElementById("q" + currentnum);
-   if (bq) bq.style.display = "inlinegrid";
+   if (bq) bq.style.display = "inline-grid";
 }
 /*
 function submit(){
