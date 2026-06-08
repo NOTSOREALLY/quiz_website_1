@@ -83,10 +83,10 @@ function submit(){
   q10score=value=0
  }
  var q11score=document.getElementById('q11').value;
- if (q5score =='caq5'){
-  q5score=value=1
+ if (q11score =='caq5'){
+  q11score=value=1
  } else{
-  q5score=value=0
+  q11score=value=0
  }
  var q12score=document.getElementById('q12').value;
  if (q1score =='caq12'){
@@ -106,11 +106,11 @@ function submit(){
  } else{
   q14score=value=0
  }
- var q14score=document.getElementById('q14').value;
- if (q14score =='as pirce increases quanitity demanded decreases vice versa ceteris paribus'){
-  q14score=value=3
+ var q15score=document.getElementById('q15').value;
+ if (q15score =='as price increases quanitity demanded decreases vice versa ceteris paribus'){
+  q15score=value=3
  } else{
-  q14score=value=0
+  q15score=value=0
  }
 }
  var totalscore = q1score + q2score + q3score + q4score+ q5score+ q6score + q7score + q8score + q9score + q10score+ q11score+ q12score + q13score q14sc0re+ q15score;
