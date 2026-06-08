@@ -117,11 +117,11 @@ function submit(){
  alert( "You got a score of: "+ totalscore )
 
  if (totalscore>12){
-  alert("You did...AMAZING!" Your getting E8")
+  alert("You did...AMAZING! Your getting E8")
    else if(totalscore>6){
   alert("Commendable effort, lets work harder to get that E8")
  } else{
-  alert("Good job! Right on track to that E8)
+  alert("Good job! Right on track to that E8")
  }
 }
 
