@@ -20,7 +20,7 @@ function back(){
    let bq = document.getElementById("q" + currentnum);
    if (bq) bq.style.display = "grid";
 }
-/*
+
 function submit(){
  let q1ans = document.getElementById("q1").value;
  let q2ans = document.getElementById("q1").value;
@@ -41,4 +41,4 @@ function submit(){
  alert( "You got a score of: "+ totalscore
  
 }
-*/
+
