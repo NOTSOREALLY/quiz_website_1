@@ -45,11 +45,6 @@ p{
     border-radius: 8px;
     font-family: Delius;
 }
-.menu{
-     background:rgb(62, 127, 202);
-     text-align: right;
-     height: 90px;
-
 
 .grid{
     display: grid;
