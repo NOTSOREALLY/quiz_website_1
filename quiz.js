@@ -7,7 +7,7 @@ function next(){
 currentnum++;
 
   let nq = document.getElementById("q" + currentnum);
-  if (nq) nq.style.display = "grid";
+  if (nq) nq.style.display = "inline-grid";
 }
 
 function back(){
