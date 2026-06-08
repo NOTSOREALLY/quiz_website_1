@@ -8,7 +8,7 @@ h2 {
     text-align: center;
 }
 body{
-    display: grid;
+    display: inline-block;
 }
 h3{
     text-align: center;
