@@ -20,6 +20,7 @@ function back(){
    let bq = document.getElementById("q" + currentnum);
    if (bq) bq.style.display = "grid";
 }
+/*
 function submit(){
  let q1ans = document.getElementById("q1").value;
  let q2ans = document.getElementById("q2").value;
@@ -75,6 +76,6 @@ if (q6ans.toLowerCase() == "internal"){
 }
  var totalscore = q1ans + q2ans + q3ans + q4ans+ q5ans+ q6score + q7score + q8score + q9score + q10score+ q11score+ q12ans + q13ans+ q14ans+ q15score;
  alert( "You got a score of: "+ totalscore )
- 
+ */
 }
 
