@@ -112,7 +112,7 @@ function submit(){
  } else{
   q14score=value=0
  }
- 
+}
  var totalscore = q1score + q2score + q3score + q4score+ q5score+ q6score + q7score + q8score + q9score + q10score+ q11score+ q12score + q13score q14sc0re+ q15score;
  alert( "You got a score of: "+ totalscore )
 
