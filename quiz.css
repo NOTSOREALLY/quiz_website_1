@@ -1,7 +1,3 @@
-
-html{
-    border: 10px solid #03C04A; /* green border */
-}
 h2 {
     background-color: #F8E473;   
     display: inline-block;       /*https://www.w3schools.com/html/html_blocks.asp. This allows for the background color to only take as much space as needed*/
