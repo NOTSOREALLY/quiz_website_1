@@ -20,7 +20,7 @@ function back(){
    let bq = document.getElementById("q" + currentnum);
    if (bq) bq.style.display = "grid";
 }
-
+/*
 function submit(){ 
  var q1score=document.getElementById('q1').value;
  if (q1score =='caq1'){
@@ -124,5 +124,5 @@ function submit(){
  }
 }
 
-
+*/
 
