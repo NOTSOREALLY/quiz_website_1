@@ -7,7 +7,7 @@ function next(){
 currentnum++;
 
   let nq = document.getElementById("q" + currentnum);
-  if (nq) nq.style.display = "show";
+  if (nq) nq.style.display = "grid";
 }
 
 function back(){
@@ -18,7 +18,7 @@ function back(){
    currentnum--;
 
    let bq = document.getElementById("q" + currentnum);
-   if (bq) bq.style.display = "show";
+   if (bq) bq.style.display = "grid";
 }
 function submit(){
  let q1ans = document.getElementById("q1").value;
