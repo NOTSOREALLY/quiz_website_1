@@ -20,6 +20,7 @@ function back(){
    let bq = document.getElementById("q" + currentnum);
    if (bq) bq.style.display = "grid";
 }
+
 /*
 function submit(){
  let q1ans = document.getElementById("q1").value;
