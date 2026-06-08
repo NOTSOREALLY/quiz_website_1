@@ -21,7 +21,7 @@ function back(){
    if (bq) bq.style.display = "grid";
 }
 
-function submit(){
+function submit(){ 
  var q1score=document.getElementById('q1').value;
  if (q1score =='caq1'){
   q1score=1
@@ -112,7 +112,6 @@ function submit(){
  } else{
   q15score=0
  }
-}
  var totalscore = q1score + q2score + q3score + q4score+ q5score+ q6score + q7score + q8score + q9score + q10score+ q11score+ q12score + q13score + q14score+ q15score;
  alert( "You got a score of: "+ totalscore )
 
@@ -124,5 +123,6 @@ function submit(){
   alert("Good job! Right on track to that E8")
  }
 }
+
 
 
