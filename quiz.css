@@ -36,7 +36,7 @@ h3{
 }
 
 .grid{
-    display: inline-block;
+    display: grid;
     grid-template-columns: 1fr 2fr 1fr 2fr 1fr ; /* keeps proportional unlike auto.*/
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 20px;
