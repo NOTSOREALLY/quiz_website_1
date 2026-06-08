@@ -1,8 +1,4 @@
-.BECheading {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
+
 html{
     border: 10 px solid #03C04A; /* green border */
 }
@@ -20,10 +16,30 @@ h3{
     display: inline-block;
     font-size: 16px;
     color: black;
-    padding: 6px 11px; /* 6px top+bottum padding 11px left+right */
+    padding: 6px 11px; 
     margin-bottom: 11px;
     background-color: #45a3e5;
     border-radius: 12px;
+}
+h1{
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    color: black;
+    padding: 6px 11px; 
+    margin-bottom: 11px;
+    background-color: #45a3e5;
+    border-radius: 12px;
+}
+p{
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    color: black;
+    padding: 4px 8px; 
+    margin-bottom: 8px;
+    background-color: #F8E473;
+    border-radius: 8px;
 }
 
 
