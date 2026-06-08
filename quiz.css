@@ -1,6 +1,6 @@
 h2 {
-    background-color: #EE4B2B; /*#F8E473 */
-    display: inline-grid;      /*https://www.w3schools.com/html/html_blocks.asp. This allows for the background color to only take as much space as needed*/
+    background-color: #F8E473; /*#F8E473 */
+    display: grid;      /*https://www.w3schools.com/html/html_blocks.asp. This allows for the background color to only take as much space as needed*/
     padding: 10px 20px;
     border-radius: 20px;
     font-size: 24px;
