@@ -6,16 +6,19 @@ h2 {
     font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
-    font-family: Domine;
+    font-family: Quicksand;
 }
 
 html{
     background-color: #FFFFC5;
 }
 body{
-    background-image: url=("ecnomics.jpg");
+    background-image: url("ecnomics.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+span{
+    color:#45a3e5
 }
 h3{
     text-align: center;
@@ -26,7 +29,7 @@ h3{
     margin-bottom: 11px;
     background-color: #45a3e5;
     border-radius: 12px;
-    font-family: Domine;
+    font-family: Quicksand;
 }
 h1{
     text-align: center;
@@ -37,7 +40,7 @@ h1{
     margin-bottom: 11px;
     background-color: #45a3e5;
     border-radius: 12px;
-    font-family: Montez;
+    font-family: Coiny;
 }
 p{
     text-align: center;
@@ -48,7 +51,7 @@ p{
     margin-bottom: 8px;
     background-color: #F8E473;
     border-radius: 8px;
-    font-family: Delius;
+    font-family: Coiny;
 }
 
 .grid{
@@ -78,5 +81,7 @@ p{
 .grid {
     border: 2px solid blue;
     min-height: 100px;
+}
+*/
 }
 */
