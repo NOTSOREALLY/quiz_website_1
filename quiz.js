@@ -58,21 +58,21 @@ function submit(){
   }
 
   var q6score = document.getElementById('q6').value;
-  if (q6score == 'internal') {
+  if (q6score.toLowerCase() == 'internal') {
     q6score = 1;
   } else {
     q6score = 0;
   }
 
   var q7score = document.getElementById('q7').value;
-  if (q7score == "sbelt") {
+  if (q7score.toLowerCase() == "sbelt") {
     q7score = 1;
   } else {
     q7score = 0;
   }
 
   var q8score = document.getElementById('q8').value;
-  if (q8score == 'tics') {
+  if (q8score.toLowerCase() == 'tics') {
     q8score = 1;
   } else {
     q8score = 0;
