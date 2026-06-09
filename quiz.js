@@ -80,7 +80,7 @@ function submit(){
  if (q10score =='902,317'){
   q10score=2
  } else{
-  q10score=v0
+  q10score=0
  }
  var q11score=document.getElementById('q11').value;
  if (q11score =='138,580'){
@@ -104,7 +104,7 @@ function submit(){
  if (q14score =='caq14'){
   q14score=1
  } else{
-  q14scor=0
+  q14score=0
  }
  var q15score=document.getElementById('q15').value;
  if (q15score =='caq15'){
@@ -112,7 +112,7 @@ function submit(){
  } else{
   q15score=0
  }
-}
+
  var totalscore = q1score + q2score + q3score + q4score+ q5score+ q6score + q7score + q8score + q9score + q10score+ q11score+ q12score + q13score + q14score+ q15score;
  alert( "You got a score of: "+ totalscore )
 
@@ -121,5 +121,5 @@ function submit(){
    else
   alert("Commendable effort, lets work harder to get that E8")
 }
-
+}
 
