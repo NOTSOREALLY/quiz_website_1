@@ -59,32 +59,32 @@ function submit(){
    q6score=0
   }
  var q7score=document.getElementById('q7').value;
- if (q7score =='){
+ if (q7score =="sbelt'){
   q7score=1
  } else{
   q7score=0
  }
  var q8score=document.getElementById('q8').value;
- if (q8score =='caq5'){
+ if (q8score =='tics'){
   q8score=1
  } else{
   q8score=0
  }
  var q9score=document.getElementById('q9').value;
- if (q9score ==''){
-  q9score=1
+ if (q9score =='1,420'){
+  q9score=2
  } else{
   q9score=0
  }
  var q10score=document.getElementById('q10').value;
- if (q10score ==''){
-  q10score=1
+ if (q10score =='902,317'){
+  q10score=2
  } else{
   q10score=v0
  }
  var q11score=document.getElementById('q11').value;
- if (q11score =='caq11'){
-  q11score=1
+ if (q11score =='138,580'){
+  q11score=2
  } else{
   q11score=0
  }
@@ -108,20 +108,18 @@ function submit(){
  }
  var q15score=document.getElementById('q15').value;
  if (q15score =='caq15'){
-  q15score=1
+  q15score=2
  } else{
   q15score=0
  }
+}
  var totalscore = q1score + q2score + q3score + q4score+ q5score+ q6score + q7score + q8score + q9score + q10score+ q11score+ q12score + q13score + q14score+ q15score;
  alert( "You got a score of: "+ totalscore )
 
  if (totalscore>12){
   alert("You did...AMAZING! Your getting E8")
-   else if(totalscore>6){
+   else
   alert("Commendable effort, lets work harder to get that E8")
- } else{
-  alert("Good job! Right on track to that E8")
- }
 }
 
 
