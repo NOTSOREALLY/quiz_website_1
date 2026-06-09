@@ -107,8 +107,8 @@ function submit(){
   q14scor=0
  }
  var q15score=document.getElementById('q15').value;
- if (q15score =='as price increases quanitity demanded decreases vice versa ceteris paribus'){
-  q15score=3
+ if (q15score =='caq15'){
+  q15score=1
  } else{
   q15score=0
  }
