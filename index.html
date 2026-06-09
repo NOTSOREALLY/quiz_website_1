@@ -2,11 +2,11 @@
 <html lang="en">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Delius&family=Domine:wght@436&family=Montez&family=Playwrite+IE:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Delius&family=Quicksand:wght@300&family=Coiny&family=Domine:wght@436&family=Montez&family=Playwrite+IE:wght@100&display=swap" rel="stylesheet">
 <head>
   <title>My Quiz</title>
-  <link rel="stylesheet" href="quiz.css">
-  <script src="quiz.js"> </script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"> </script>
 </head>
 <body>
   <div class="menu">
@@ -22,10 +22,11 @@
       <h3 style="grid-column: 2;"> C. The variety of goods a individual is willing and able to buy at a range of prices </h3>
       <h3 style="grid-column: 4;"> D. The amount of customers a specific item attracts within 1 financial month </h3>
       <select id="ans1" style="grid-column:3; grid-row:3;">
-      <option value="caq1">A</option>
-      <option value="0">B</option>
-      <option value="0">C</option>
-      <option value="0">D</option>
+        <option value="0">select an answer</option>
+        <option value="caq1">A</option>
+        <option value="0">B</option>
+        <option value="0">C</option>
+        <option value="0">D</option>
       </select>
       <button type="button"  style="grid-column: 4; grid-row:4" onclick="next()">Next</button>
     </div>
@@ -39,10 +40,11 @@
       <h3 style="grid-column: 2;"> C. Businesses in a local community who works together to achieve a common goal </h3>
       <h3 style="grid-column: 4;"> D. Individuals who are interested in the success of a business </h3>
       <select id="ans2" style="grid-column:3; grid-row:3;">
-      <option value="0">A</option>
-      <option value="0">B</option>
-      <option value="0">C</option>
-      <option value="caq2">D</option>
+        <option value="0">select an answer</option>
+        <option value="0">A</option>
+        <option value="0">B</option>
+        <option value="0">C</option>
+        <option value="caq2">D</option>
       </select>
       <button type="button"  style="grid-column: 2; grid-row:4" onclick="back()">Back</button>
       <button type="button"  style="grid-column: 4; grid-row:4" onclick="next()">Next</button>
@@ -55,12 +57,13 @@
       <h3 style="grid-column: 2;"> A. A non-profit organisation that exists to help with social issues </h3>
       <h3 style="grid-column: 4;"> B. A  business that helps with social issues <br> </h3>
       <h3 style="grid-column: 2;"> C. A business that exists for a purpose beyond profit </h3>
-      <h3 style="grid-column: 4;"> D. A non-profit organisation that exists for a purpose beyond profit </h3>
+      <h3 style="grid-column: 4;"> D. A non-profit organisation that exists for a purpose <br> beyond profit </h3>
       <select id="ans3" style="grid-column:3; grid-row:3;">
-      <option value="0">A</option>
-      <option value="caq3">B</option>
-      <option value="0">C</option>
-      <option value="0">D</option>
+        <option value="0">select an answer</option> <!--This is a default setting so the default setting is not "A"-->
+        <option value="0">A</option>
+        <option value="0">B</option>
+        <option value="caq3">C</option>
+        <option value="0">D</option>
       </select>
       <button type="button"  style="grid-column: 2; grid-row:4" onclick="back()">Back</button>
       <button type="button"  style="grid-column: 4; grid-row:4" onclick="next()">Next</button>
@@ -68,17 +71,18 @@
   </div>
   
   <div id="q4" class="question" style="display: none" >
-  <h2>What are the 2 main reasons for a change in quantity demanded?</h2>
+  <h2>What are the 2 main reasons for a change in demand?</h2>
     <div class="grid">
-      <h3 style="grid-column: 2;"> A. Income effect and Substitutions effects </h3>
-      <h3 style="grid-column: 4;"> B. Complementary Goods effect and Preference effects <br> </h3>
-      <h3 style="grid-column: 2;"> C. Income effect and Preference effects </h3>
+      <h3 style="grid-column: 2;"> A. Income effect and Substitutions effects <br>  </h3>
+      <h3 style="grid-column: 4;"> B. Complementary Microeconomic Goods effect and Preference Complex-Parity effects  </h3>
+      <h3 style="grid-column: 2;"> C. Macroeconomic Quantum Inflationary Parity and The Micro-Satiation Equilibrium Paradox</h3>
       <h3 style="grid-column: 4;"> D. Complementary Goods effect and Substitution effects </h3>
       <select id="ans4" style="grid-column:3; grid-row:3;">
-      <option value="caq4">A</option>
-      <option value="0">B</option>
-      <option value="0">C</option>
-      <option value="0">D</option>
+        <option value="0">select an answer</option>
+        <option value="caq4">A</option>
+        <option value="0">B</option>
+        <option value="0">C</option>
+        <option value="0">D</option>
       </select>
       <button type="button"  style="grid-column: 2; grid-row:4" onclick="back()">Back</button>
       <button type="button"  style="grid-column: 4; grid-row:4" onclick="next()">Next</button>
@@ -93,10 +97,11 @@
         <h3 style="grid-column: 2;"> C. Price of Complements, Price of Substitutes, Income, Taste and preferences</h3>
         <h3 style="grid-column: 4;"> D. Culture, Number of Buyers, Price of Complements, Expectation of future price</h3>
         <select id="ans5" style="grid-column:3; grid-row:3;">
-        <option value="0">A</option>
-        <option value="0">B</option>
-        <option value="caq5">C</option>
-        <option value="0">D</option>
+          <option value="0">select an answer</option>
+          <option value="0">A</option>
+          <option value="0">B</option>
+          <option value="caq5">C</option>
+          <option value="0">D</option>
         </select>
         <button type="button"  style="grid-column: 2; grid-row:4" onclick="back()">Back</button>
         <button type="button"   style="grid-column: 4; grid-row:4" onclick="next()">Next</button>
@@ -106,52 +111,76 @@
     <div id="q6" class="question" style="display: none" value="2" >
     <h2>Employees and Shareholders both classify as what type of stakeholders? </h2>
       <div class="grid">
-        <input type="text" id="ans6" style="grid-column: 3; grid-row: 2" placeholder="Type answer here...">
+        <h3 style="grid-column: 2;"> Please ensure correct spelling </h3>
+        <h3 style="grid-column: 4;"> All of these questions are here to challenge you, <br> not to trick you <br> </h3>
+        <h3 style="grid-column: 2;"> Please take extreme care before moving on</h3>
+        <h3 style="grid-column: 4;"> Thank you for coming this far</h3>
+        <input type="text" id="ans6" style="grid-column: 3; grid-row: 3" placeholder="Type answer here...">
         <button type="button"  style="grid-column: 2; grid-row:4" onclick="back()">Back</button>
         <button type="button"  style="grid-column: 4; grid-row:4" onclick="next()">Next</button>
       </div> 
     </div>
 
       <div id="q7" class="question" style="display:none" value="2">
-    <h2>What is the acronym used when writing paragraphs in Business Studies?</h2>
+        <h2>What is the acronym used when writing paragraphs in Business Studies?</h2>
       <div class="grid">
-        <input type="text" id="ans7" style="grid-column: 3; grid-row: 2" placeholder="Type answer here...">
+        <h3 style="grid-column: 2;"> Please ensure correct spelling </h3>
+        <h3 style="grid-column: 4;"> All of these questions are here to challenge you, <br> not to trick you <br> </h3>
+        <h3 style="grid-column: 2;"> Please take extreme care before moving on</h3>
+        <h3 style="grid-column: 4;"> Thank you for coming this far</h3>
+        <input type="text" id="ans7" style="grid-column: 3; grid-row: 3" placeholder="Type answer here...">
         <button type="button"  style="grid-column: 2; grid-row:4" onclick="back()">Back</button>
         <button type="button"  style="grid-column: 4; grid-row:4" onclick="next()">Next</button>
       </div>  
     </div>
 
       <div id="q8" class="question" style="display: none" value="2">
-    <h2>What is the acronym used to remember the 4 non-price factors in Economics?</h2>
+        <h2>What is the acronym used to remember the 4 non-price factors in Economics?</h2>
       <div class="grid">
-        <input type="text" id="ans8" style="grid-column: 3; grid-row: 2" placeholder="Type answer here...">
+        <h3 style="grid-column: 2;"> Please ensure correct spelling </h3>
+        <h3 style="grid-column: 4;"> All of these questions are here to challenge you, <br> not to trick you <br> </h3>
+        <h3 style="grid-column: 2;"> Please take extreme care before moving on</h3>
+        <h3 style="grid-column: 4;"> Thank you for coming this far</h3>
+        <input type="text" id="ans8" style="grid-column: 3; grid-row: 3" placeholder="Type answer here...">
         <button type="button"  style="grid-column: 2; grid-row:4" onclick="back()">Back</button>
         <button type="button"  style="grid-column: 4; grid-row:4" onclick="next()">Next</button>
       </div>
     </div>
 
       <div id="q9" class="question" style="display: none" value="2">
-    <h2>In a simple accounting equation: A=OE+L <br> Asset: 3,270 <br> Owners Equity:1,850 <br>Find the value of Liabilities <br>Please enter a integer number between 0-1,000,000 using commas </h2>
+        <h2>In a simple accounting equation: A=OE+L  </h2>
       <div class="grid">
-        <input type="text" id="ans9" style="grid-column: 3; grid-row: 2" placeholder="Type answer here...">
+        <h3 style="grid-column: 2;"> Assets: 3,270 </h3>
+        <h3 style="grid-column: 4;"> Owners Equity: 1,850<br> </h3>
+        <h3 style="grid-column: 2;"> Find the value of: <br> Liabilties</h3>
+        <h3 style="grid-column: 4;"> Thank you for coming this far</h3>
+        <input type="text" id="ans9" style="grid-column: 3; grid-row: 3" placeholder="Type answer here...">
         <button type="button"  style="grid-column: 2; grid-row:4" onclick="back()">Back</button>
         <button type="button" style="grid-column: 4; grid-row:4" onclick="next()">Next</button>
       </div>
     </div>
 
       <div id="q10" class="question" style="display: none" value="2">
-    <h2>In a simple accounting equation: A=OE+L <br> Liabilities: 225,550 <br> Owners Equity: 676,767 <br>Find the value of Assets <br>Please enter a integer number between 0-1,000,000 using commas </h2>
+        <h2>In a simple accounting equation: A=OE+L  </h2>
       <div class="grid">
-        <input type="text" id="ans10" style="grid-column: 3; grid-row: 2" placeholder="Type answer here...">
+        <h3 style="grid-column: 2;"> Liabilities: 225,550 </h3>
+        <h3 style="grid-column: 4;"> Owners Equity: 676,767<br> </h3>
+        <h3 style="grid-column: 2;"> Find the value of: <br> Assets</h3>
+        <h3 style="grid-column: 4;"> Thank you for coming this far</h3>
+        <input type="text" id="ans9" style="grid-column: 3; grid-row: 3" placeholder="Type answer here...">
         <button type="button"  style="grid-column: 2; grid-row:4" onclick="back()">Back</button>
-        <button type="button"  style="grid-column: 4; grid-row:4" onclick="next()">Next</button>
+        <button type="button" style="grid-column: 4; grid-row:4" onclick="next()">Next</button>
       </div>
     </div>
 
       <div id="q11" class="question" style="display: none" value="2">
-    <h2>In a simple accounting equation: A=OE+L <br> Asset: 194,200 <br> Liabilities: 55,620 <br>Find the value of Owner's Equity <br>Please enter a integer number between 0-1,000,000 using commas </h2>
+        <h2>In a simple accounting equation: A=OE+L  </h2>
       <div class="grid">
-        <input type="text" id="ans11" style="grid-column: 3; grid-row: 2" placeholder="Type answer here...">
+        <h3 style="grid-column: 2;"> Liabilities: 55,620 </h3>
+        <h3 style="grid-column: 4;"> Assets: 194,200 <br> </h3>
+        <h3 style="grid-column: 2;"> Find the value of: <br> Owners Equity</h3>
+        <h3 style="grid-column: 4;"> Thank you for coming this far</h3>
+        <input type="text" id="ans9" style="grid-column: 3; grid-row: 3" placeholder="Type answer here...">
         <button type="button" style="grid-column: 2; grid-row:4" onclick="back()">Back</button>
         <button type="button"  style="grid-column: 4; grid-row:4" onclick="next()">Next</button>
       </div>  
@@ -160,15 +189,16 @@
    <div id="q12" class="question" style="display: none">
     <h2>What subheading would electricity, rates and insurance go under?</h2>
       <div class="grid">
-        <h3 style="grid-column: 2;"> A. Administrative expenses </h3>
+        <h3 style="grid-column: 2;"> A. Administrative expenses <br> <span> .</span> </h3>
         <h3 style="grid-column: 4;"> B. Service expenses <br> </h3>
         <h3 style="grid-column: 2;"> C. Finance costs </h3>
         <h3 style="grid-column: 4;"> D. Operation costs </h3>
         <select id="ans12" style="grid-column:3; grid-row:3;">
-        <option value="caq12">A</option>
-        <option value="0">B</option>
-        <option value="0">C</option>
-        <option value="0">D</option>
+          <option value="0">select an answer</option>
+          <option value="caq12">A</option>
+          <option value="0">B</option>
+          <option value="0">C</option>
+          <option value="0">D</option>
         </select>
         <button type="button"  style="grid-column: 2; grid-row:4" onclick="back()">Back</button>
         <button type="button"  style="grid-column: 4; grid-row:4" onclick="next()">Next</button>
@@ -180,13 +210,14 @@
       <div class="grid">
         <h3 style="grid-column: 2;"> A. Non-current assests </h3>
         <h3 style="grid-column: 4;"> B. Current liabilities <br> </h3>
-        <h3 style="grid-column: 2;"> C. Non-current liabilities </h3>
+        <h3 style="grid-column: 2;"> C. Non-current liabilities <br> <span> .</span> </h3>
         <h3 style="grid-column: 4;"> D. Current assests</h3>
         <select id="ans13" style="grid-column:3; grid-row:3;">
-        <option value="0">A</option>
-        <option value="0">B</option>
-        <option value="0">C</option>
-        <option value="caq12">D</option>
+          <option value="0">select an answer</option>
+          <option value="0">A</option>
+          <option value="0">B</option>
+          <option value="0">C</option>
+          <option value="caq12">D</option>
         </select>
         <button type="button"  style="grid-column: 2; grid-row:4" onclick="back()">Back</button>
         <button type="button" style="grid-column: 4; grid-row:4" onclick="next()">Next</button>
@@ -198,16 +229,17 @@
       <div class="grid">
         <h3 style="grid-column: 2;"> A. Manaakitanga </h3>
         <h3 style="grid-column: 4;"> B. Ngakaupono. <br> </h3>
-        <h3 style="grid-column: 2;"> C. Whanaungatanga </h3>
+        <h3 style="grid-column: 2;"> C. Whanaungatanga  <br> <span> .</span> </h3>
         <h3 style="grid-column: 4;"> D. Kaitiakitanga </h3>
         <select id="ans14" style="grid-column:3; grid-row:3;">
-        <option value="0">A</option>
-        <option value="0">B</option>
-        <option value="caq14">C</option> 
-        <option value="0">D</option>
+          <option value="0">select an answer</option>
+          <option value="0">A</option>
+          <option value="0">B</option>
+          <option value="caq14">C</option> 
+          <option value="0">D</option>
         </select>
         <button type="button"  style="grid-column: 2; grid-row:4" onclick="back()">Back</button>
-        <button type="button"  style="grid-column: 4; grid-row:4" onclick="next()">Next</button>>
+        <button type="button"  style="grid-column: 4; grid-row:4" onclick="next()">Next</button>
       </div>
     </div>
 
@@ -220,15 +252,14 @@
         <h3 style="grid-column: 2;"> C. As price increases, demand increases, inversely, ceteris paribus, vice versa</h3>
         <h3 style="grid-column: 4;"> D. As quantity demand decreases, price decreses, comparingly, ceteris paribus, vice versa</h3>
         <select id="ans15" style="grid-column:3; grid-row:3;">
-        <option value="caq15">A</option>
-        <option value="0">B</option>
-        <option value="0">C</option>
-        <option value="0">D</option>
+          <option value="0">select an answer</option>
+          <option value="caq15">A</option>
+          <option value="0">B</option>
+          <option value="0">C</option>
+          <option value="0">D</option>
         </select>
         <button type="button" style="grid-column: 2; grid-row:4" onclick="back()">Back</button>
         <button type="button" style="grid-column: 4; grid-row:4" onclick="submit()">Submit</button>
       </div>
-    </div>
-  
-
+    </div>  
 
