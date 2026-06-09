@@ -20,44 +20,44 @@ function back(){
    let bq = document.getElementById("q" + currentnum);
    if (bq) bq.style.display = "grid";
 }
-/*
+
 function submit(){ 
- var q1score=document.getElementById('q1').value;
- if (q1score =='caq1'){
-  q1score=1
- } else{
-  q1score=0
- }
- var q2score=document.getElementById('q2').value;
- if (q2score =='caq2'){
-  q2score=1
- } else{
-  q2score=0
- }
- var q3score=document.getElementById('q3').value;
- if (q3score =='caq3'){
-  q3score=1
- } else{
-  q3score=0
- }
- var q4score=document.getElementById('q4').value;
- if (q4score =='caq4'){
-  q4score=1
- } else{
-  q4score=0
- }
- var q5score=document.getElementById('q5').value;
- if (q5score =='caq5'){
-  q5score=1
- } else{
-  q5score=0
- }
- var q6score=document.getElementById('q6').value;
- if (q6score =='internal'){
-  q6score=1
- } else{
-  q6score=0
- }
+   var q1score=document.getElementById('q1').value;
+   if (q1score =='caq1'){
+   q1score=1
+   } else{
+   q1score=0
+  }
+  var q2score=document.getElementById('q2').value;
+  if (q2score =='caq2'){
+   q2score=1
+  } else{
+   q2score=0
+  }
+  var q3score=document.getElementById('q3').value;
+  if (q3score =='caq3'){
+   q3score=1
+  } else{
+   q3score=0
+  }
+  var q4score=document.getElementById('q4').value;
+  if (q4score =='caq4'){
+   q4score=1
+  } else{
+   q4score=0
+  }
+  var q5score=document.getElementById('q5').value;
+  if (q5score =='caq5'){
+   q5score=1
+  } else{
+   q5score=0
+  }
+  var q6score=document.getElementById('q6').value;
+  if (q6score =='internal'){
+   q6score=1
+  } else{
+   q6score=0
+  }
  var q7score=document.getElementById('q7').value;
  if (q7score =='){
   q7score=1
@@ -124,5 +124,4 @@ function submit(){
  }
 }
 
-*/
 
