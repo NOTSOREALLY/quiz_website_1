@@ -1,10 +1,10 @@
-let currentnum = 1;
+var currentnum = 1;
 
 function next(){
  let cq = document.getElementById("q" + currentnum); 
  if (cq) cq.style.display = "none";
 
-currentnum++;
+  currentnum++;
 
   let nq = document.getElementById("q" + currentnum);
   if (nq) nq.style.display = "grid";
@@ -21,7 +21,7 @@ function back(){
    if (bq) bq.style.display = "grid";
 }
 
-   function submit(){ 
+function submit(){ 
   var q1score = document.getElementById('q1').value;
   if (q1score == 'caq1') {
     q1score = 1;
