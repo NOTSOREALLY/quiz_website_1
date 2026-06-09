@@ -83,7 +83,7 @@ function submit(){
   q10score=v0
  }
  var q11score=document.getElementById('q11').value;
- if (q11score =='caq5'){
+ if (q11score =='caq11'){
   q11score=1
  } else{
   q11score=0
