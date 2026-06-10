@@ -11,7 +11,6 @@ function next(){
 }
 
 function back(){
-
    let cq = document.getElementById("q" + currentnum);
    if (cq) cq.style.display = "none";
 
@@ -139,5 +138,3 @@ function submit(){
 }
 
 
-  }
-}
