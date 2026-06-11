@@ -130,11 +130,9 @@ function submit(){
 
   alert("You got a score of: " + totalscore);
 
-  if (totalscore > 17) {
+ if (totalscore > 17) {
     alert("You did...AMAZING! Your getting E8");
-  } else if (totalscore < 5) {
-    alert("Remember, tests isn't about getting good grades, it's about trying your best")
-  } else
+  } else {
     alert("Commendable effort, lets work harder to get that E8");
   }
 }
