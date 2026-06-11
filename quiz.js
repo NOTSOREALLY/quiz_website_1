@@ -4,25 +4,25 @@ function next(){
  let cq = document.getElementById("q" + currentnum); 
  if (cq) cq.style.display = "none";
 
-  currentnum++;
+  currentnum++; // this adds 1 to currentnum
 
   let nq = document.getElementById("q" + currentnum);
   if (nq) nq.style.display = "grid";
-}
+} // this allows for the next and back to function properly
 
 function back(){
    let cq = document.getElementById("q" + currentnum);
    if (cq) cq.style.display = "none";
 
-   currentnum--;
-
+   currentnum--; // this subtracts 1 to current num
+ 
    let bq = document.getElementById("q" + currentnum);
    if (bq) bq.style.display = "grid";
 }
 
 function submit(){ 
   var q1score = document.getElementById('ans1').value;
-  if (q1score == 'caq1') {
+  if (q1score == 'caq1') {   // sees if the ans1 = caq1 or not and assigns scores accordingly
     q1score = 1;
   } else {
     q1score = 0;
@@ -57,7 +57,7 @@ function submit(){
   }
 
   var q6score = document.getElementById('ans6').value;
-  if (q6score.toLowerCase() == 'internal') {
+  if (q6score.toLowerCase() == 'internal') { // text requires a different approach. toLowerCase allows for INTERNAL, iNTeRnal etc etc
     q6score = 1;
   } else {
     q6score = 0;
@@ -128,9 +128,9 @@ function submit(){
 
   var totalscore = q1score + q2score + q3score + q4score + q5score + q6score + q7score + q8score + q9score + q10score + q11score + q12score + q13score + q14score + q15score;
 
-  alert("You got a score of: " + totalscore);
+  alert("You got a score of: " + totalscore); 
 
- if (totalscore > 17) {
+ if (totalscore > 14) {  // alert depending on score
     alert("You did...AMAZING! Your getting E8");
   } else {
     alert("Commendable effort, lets work harder to get that E8");
