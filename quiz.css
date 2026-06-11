@@ -6,11 +6,11 @@ h2 {
     font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
-    font-family: Quicksand;
+    font-family: Quicksand; /*google font*/
 }
 
 html{
-    background-color: #FFFFC5;
+    background-color: #FFFFC5; /*background colour to the entire page*/
 }
 
 
@@ -19,14 +19,14 @@ span{
 }
 h3{
     text-align: center;
-    display: inline-block;
+    display: inline-block; /*background colour to only width of the text not across entire screen*/
     font-size: 16px;
     color: black;
     padding: 6px 11px; 
     margin-bottom: 11px;
     background-color: #45a3e5;
     border-radius: 12px;
-    font-family: Quicksand;
+    font-family: Quicksand; /*google font*/
 }
 h1{
     text-align: center;
@@ -37,7 +37,7 @@ h1{
     margin-bottom: 11px;
     background-color: #45a3e5;
     border-radius: 12px;
-    font-family: Coiny;
+    font-family: Coiny; /*google font*/
 }
 p{
     text-align: center;
