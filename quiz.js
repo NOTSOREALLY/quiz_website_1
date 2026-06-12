@@ -137,6 +137,7 @@ function submit(){
   } else if(totalscore < 6) {
     alert("Commendable effort " + name + " lets work harder to get that E8");
   }
+ 
 }
 
 
