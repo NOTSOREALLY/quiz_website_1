@@ -126,15 +126,20 @@ function submit(){
     q15score = 0;
   }
 
-  var totalscore = q1score + q2score + q3score + q4score + q5score + q6score + q7score + q8score + q9score + q10score + q11score + q12score + q13score + q14score + q15score;
+ var totalscore = q1score + q2score + q3score + q4score + q5score + q6score + q7score + q8score + q9score + q10score + q11score + q12score + q13score + q14score + q15score;
+  alert("Thanks for completing the quiz ...!") // simple name mechanic to increase user interactions and to meet design brief
+  var name = prompt("Type in your name")
+  alert("Ok " + name + " you got a score of: " + totalscore);
 
-  alert("You got a score of: " + totalscore); 
 
  if (totalscore > 14) {  // alert depending on score
-    alert("You did...AMAZING! Your getting E8");
-  } else {
-    alert("Commendable effort, lets work harder to get that E8");
+    alert( name + " " + " you did...AMAZING! Your getting E8");
+  } else if(totalscore < 6) {
+    alert("Commendable effort " + name + " lets work harder to get that E8");
   }
 }
+
+
+
 
 
